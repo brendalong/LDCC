@@ -15,7 +15,7 @@ We will be hiring an intern to add numerous snacks to the DB. If you would like 
 1. The snack detail will need to display all the toppings for the one snack. Make this a comma separated list in a paragraph.
 1. With the new topping tracking system, the club members would love to have the option to display snacks with particular toppings. Something like, show me all snacks with chocolate icing. The dropdown menu should read from the toppings list in the DB and be displayed in the navbar. The dropdown list of all toppings should trigger a call to DB for only those snacks and then display them.
 1. For the first time in years, LD has a new type of snack - cereal. It is expected that over the next few years the trend of new snacks will continue. The club would like the ability to add a new snack type to the type table in the DB. They have also requested that the new Oatmeal Creme Pie Cereal be added immediately to the list of snacks in the DB. You will need to make an object that includes the propterties of the snack table in the ERD and post it to the DB with Postman.
-1. Only the admin user should have the ability to `Add Type`. Currently the only admin is LD herself. Only display the `Add Type` if LD is logged in.
+1. Only the admin user should have the ability to `Add A Type`. Currently the only admin is LD herself. Only display the `Add Type` if LD is logged in.
 
 ### ERD
 **Before you begin any code**, use the ERD script and paste it into DBDiagram. Complete the relationships based on the MVP requirements. Share with the instruction team to get an updated `snacks.json` file.

@@ -12,7 +12,7 @@ export const RegisterForm = () => {
 			<input type="text" class="form-control" id="registerEmail" name="registerEmail" placeholder="example@ld.com">
 		</div>
 		<div class="col-12">
-    		<button type="button" class="btn btn-primary" id="login__register">Register</button>
+    		<button type="button" class="btn btn-primary" id="register__submit">Register</button>
   		</div>
 	</form>
 	`

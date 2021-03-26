@@ -15,9 +15,6 @@ Table snacks {
   description varchar
   toppings varchar
 }
-
-//note to self: remove shape, inFlavor, seasonId
-//have students complete that part of snack table
  
 //each snack has one season
 //be sure to include one for everyday

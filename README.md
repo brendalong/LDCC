@@ -27,7 +27,7 @@ We will be hiring an intern to add numerous snacks to the DB. If you would like 
 1. Only the admin user should have the ability to `Add A Type`. Currently the only admin is LD herself. Only display the `Add A Type` if LD is logged in.
 
 ### ERD
-**Before you begin any code**, use the ERD script and paste it into DBDiagram. Complete the relationships based on the MVP requirements. Share with the instruction team to get an updated `snacks.json` file.
+**Before you begin any code**, use the ERD script and paste it into DBDiagram. Complete the relationships based on the MVP requirements. Share with the instruction team to get an updated `snacks.json` file. (Brenda has the secret location of this file)
 
 ### Bonus
 1. Add the functionality to add and edit a Topping - but only for admin users.

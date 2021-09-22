@@ -257,7 +257,7 @@
       "name": "Hexagon"
     },
     {
-      "id":7,
+      "id": 7,
       "name": "Roll"
     }
   ],
@@ -265,7 +265,7 @@
     {
       "name": "LD",
       "email": "ld@ldcc.com",
-      "admin": true,
+      "isAdmin": true,
       "id": 1
     }
   ]

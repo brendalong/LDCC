@@ -21,10 +21,10 @@ We will be hiring an intern to add numerous snacks to the DB. If you would like 
 > _What type of relationship will this be?_
 > _What tables will need to be created in the database?_
 > **Be sure to share your ERD with the instruction team.**
-4. The snack detail will need to display all the toppings for the one snack. Make this a comma separated list in a paragraph.
-1. With the new topping tracking system, the club members would love to have the option to display snacks with particular toppings. Something like, show me all snacks with chocolate icing. The dropdown menu should read from the toppings list in the DB and be displayed in the navbar. The dropdown list of all toppings should trigger a call to DB for only those snacks and then display them.
+4. The snack detail will need to display all the toppings for the one snack. Treat this like a paragraph with a comma separating each item. The word "and" would be a nice touch too.
+1. With the new topping tracking system, the club members would love to have the option to display snacks with particular toppings. Something like, show me all snacks with chocolate icing. The dropdown menu should populate from the toppings table in the DB and be displayed in the navbar. The dropdown list of toppings should trigger a call to DB for only those snacks and then display them.
 1. For the first time in years, LD has a new type of snack - cereal. It is expected that over the next few years the trend of new snacks will continue. The club would like the ability to add a new snack type to the type table in the DB. They have also requested that the new Oatmeal Creme Pie Cereal be added immediately to the list of snacks in the DB. You will need to make an object that includes the properties of the snack table in the ERD and post it to the DB with Postman.
-1. Only the admin user should have the ability to `Add A Type`. Currently the only admin is LD herself. Only display the `Add Type` if LD is logged in.
+1. Only the admin user should have the ability to `Add A Type`. Currently the only admin is LD herself. Only display the `Add A Type` if LD is logged in.
 
 ### ERD
 **Before you begin any code**, use the ERD script and paste it into DBDiagram. Complete the relationships based on the MVP requirements. Share with the instruction team to get an updated `snacks.json` file.
@@ -33,10 +33,11 @@ We will be hiring an intern to add numerous snacks to the DB. If you would like 
 1. Add the functionality to add and edit a Topping - but only for admin users.
 1. Add the functionality to add and edit a snack - but only for admin users. This one is tricky since there is an option to have multiple toppings.
 1. Add the functionality to edit a snack - but only for admin users. 
+1. As a logged in user, I should be able to star my favorite snacks. As LD, I would like to see the total number of likes for each snack. *Hint: you will need to add a table to the ERD* 
 
 ### Notes
 1. Ask questions about the requirements to ensure you are meeting expectations.
-1. After you complete each feature add, commit, push, and merge to github.
+1. Create a branch for each feature and after you complete each feature add, commit, push, and merge to github.
 1. Share your progress with the instruction team.
 
 ## To run this project
